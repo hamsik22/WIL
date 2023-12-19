@@ -18,10 +18,12 @@ func solution(_ my_string:String, _ overwrite_string:String, _ s:Int) -> String 
     var overwriteString = overwrite_string
     var indexNumber1 = myString.startIndex
     var indexNumber2 = myString.startIndex
-    indexNumber1 = myString.index(myString.startIndex, offsetBy: s)
-    indexNumber2 = myString.index(indexNumber1, offsetBy: overwriteString.count)
-    myString.removeSubrange(indexNumber1..<indexNumber2)
-    myString.insert(contentsOf: overwrite_string, at: indexNumber1)
-
-    return myString
+    if s >= 0 && s <= (myString.count - overwriteString.count) {
+        indexNumber1 = myString.index(myString.startIndex, offsetBy: s)
+          indexNumber2 = myString.index(indexNumber1, offsetBy: overwriteString.count)
+          myString.removeSubrange(indexNumber1..<indexNumber2)
+          myString.insert(contentsOf: overwrite_string, at: indexNumber1)
+        return myString
+    }
+    return "Error"
 }
