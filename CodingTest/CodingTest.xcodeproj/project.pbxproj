@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3020D232B2C956200C68DA3 /* 나머지 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3020D222B2C956200C68DA3 /* 나머지 구하기.swift */; };
+		C348B0482B3704F500CB9C43 /* 문자열 섞기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348B0472B3704F500CB9C43 /* 문자열 섞기.swift */; };
 		C3E8FB462B26B387003A7333 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8FB452B26B387003A7333 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		91BE9D662B2EE362008520F5 /* 문자열 겹쳐쓰기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 겹쳐쓰기.swift"; sourceTree = "<group>"; };
 		C3020D222B2C956200C68DA3 /* 나머지 구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "나머지 구하기.swift"; sourceTree = "<group>"; };
 		C32C510C2B308F5300723B60 /* n의 배수.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "n의 배수.swift"; sourceTree = "<group>"; };
+		C348B0472B3704F500CB9C43 /* 문자열 섞기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 섞기.swift"; sourceTree = "<group>"; };
 		C382B5572B26C2E80098934E /* 1000.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1000.swift; sourceTree = "<group>"; };
 		C382B55B2B26E1330098934E /* Day1-3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-3.swift"; sourceTree = "<group>"; };
 		C382B55D2B26FACF0098934E /* Day1-4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Day1-4.swift"; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				C3020D222B2C956200C68DA3 /* 나머지 구하기.swift */,
 				91BE9D662B2EE362008520F5 /* 문자열 겹쳐쓰기.swift */,
 				C32C510C2B308F5300723B60 /* n의 배수.swift */,
+				C348B0472B3704F500CB9C43 /* 문자열 섞기.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			files = (
 				C3E8FB462B26B387003A7333 /* main.swift in Sources */,
 				C3020D232B2C956200C68DA3 /* 나머지 구하기.swift in Sources */,
+				C348B0482B3704F500CB9C43 /* 문자열 섞기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
