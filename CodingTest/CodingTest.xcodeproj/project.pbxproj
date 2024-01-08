@@ -10,6 +10,7 @@
 		C3020D232B2C956200C68DA3 /* 나머지 구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3020D222B2C956200C68DA3 /* 나머지 구하기.swift */; };
 		C348B0482B3704F500CB9C43 /* 문자열 섞기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C348B0472B3704F500CB9C43 /* 문자열 섞기.swift */; };
 		C37ACF852B4B8AB300CECE4A /* 마지막 두 원소.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37ACF842B4B8AB300CECE4A /* 마지막 두 원소.swift */; };
+		C3B7EB682B4C738700C2580C /* 수 조작하기 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B7EB672B4C738700C2580C /* 수 조작하기 1.swift */; };
 		C3E8FB462B26B387003A7333 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E8FB452B26B387003A7333 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		C3A7B06D2B3BA49300EF1641 /* 문자열 곱하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열 곱하기.swift"; sourceTree = "<group>"; };
 		C3A7B06F2B3BAB1D00EF1641 /* 더 크게 합치기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "더 크게 합치기.swift"; sourceTree = "<group>"; };
 		C3A7B0712B3BC15100EF1641 /* 두 수의 연산값 비교하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 수의 연산값 비교하기.swift"; sourceTree = "<group>"; };
+		C3B7EB672B4C738700C2580C /* 수 조작하기 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수 조작하기 1.swift"; sourceTree = "<group>"; };
 		C3E8FB422B26B387003A7333 /* CodingTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E8FB452B26B387003A7333 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C3E8FB4C2B26B3CF003A7333 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				C36CE89A2B4A2BC4005C9EE0 /* 주사위게임 2.swift */,
 				C36CE89C2B4A2D84005C9EE0 /* 이어 붙인 수.swift */,
 				C37ACF842B4B8AB300CECE4A /* 마지막 두 원소.swift */,
+				C3B7EB672B4C738700C2580C /* 수 조작하기 1.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				C3E8FB462B26B387003A7333 /* main.swift in Sources */,
 				C3020D232B2C956200C68DA3 /* 나머지 구하기.swift in Sources */,
 				C348B0482B3704F500CB9C43 /* 문자열 섞기.swift in Sources */,
+				C3B7EB682B4C738700C2580C /* 수 조작하기 1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
